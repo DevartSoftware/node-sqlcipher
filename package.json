@@ -72,6 +72,7 @@
     "sqlite3.js",
     "src",
     "deps",
-    "*.gyp"
+    "*.gyp",
+    "index.d.ts"
   ]
 }
