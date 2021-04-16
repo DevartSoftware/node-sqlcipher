@@ -153,7 +153,8 @@
           'SQLITE_HAS_CODEC',
           'SQLITE_TEMP_STORE=2',
           'SQLITE_SECURE_DELETE',
-          'SQLITE_ENABLE_DBSTAT_VTAB=1'
+          'SQLITE_ENABLE_DBSTAT_VTAB=1',
+          'SQLITE_OPEN_URI'
         ],
       },
       'cflags_cc': [
@@ -170,7 +171,8 @@
         'SQLITE_HAS_CODEC',
         'SQLITE_TEMP_STORE=2',
         'SQLITE_SECURE_DELETE',
-        'SQLITE_ENABLE_DBSTAT_VTAB=1'
+        'SQLITE_ENABLE_DBSTAT_VTAB=1',
+        'SQLITE_OPEN_URI'
       ],
       'export_dependent_settings': [
         'action_before_build',
